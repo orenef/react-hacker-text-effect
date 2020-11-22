@@ -1,0 +1,18 @@
+  
+  .react-hack-text {
+    text-align: center;
+    font-size: 60px;
+    color: #411;
+    text-shadow: 0 0 15px #411;
+    font-family: Consolas, Courier, monospace;
+  }
+  
+  .react-hack-text .glow {
+    color: #f00;
+    text-shadow: 0px 0px 10px #f00;
+  }
+  
+  .react-hack-text > span {
+    display: inline-block;
+    padding: 0 10px;
+  }
