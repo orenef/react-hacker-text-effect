@@ -25,6 +25,8 @@ export default {
   external: [
     'react',
     'react-dom',
+    ...Object.keys(packageJson.dependencies || {}),
+    ...Object.keys(packageJson.peerDependencies || {}),
   ],
   plugins: [
     resolve(),
