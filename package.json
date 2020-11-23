@@ -1,6 +1,6 @@
 {
   "name": "react-hacker-text-effect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adding encryption effect to given text",
   "main": "build/index.js",
   "module": "build/index.es.js",

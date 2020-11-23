@@ -40,7 +40,6 @@ export const HackText: React.FC<Props> = ({
   },[]);
 
   function inc() { 
-    console.log('readyIndex inc', readyIndexRef.current);
     if (readyIndexRef.current < word.length) {
       setReadyIndex(prevReadyIndex => prevReadyIndex + 1);
       setTimeout(inc, 1000);
